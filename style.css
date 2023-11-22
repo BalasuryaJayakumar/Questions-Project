@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&family=Lobster&family=Nunito&display=swap');
+font-family: 'Nunito', sans-serif;
+
+html {
+  height: 100vh;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  place-content: center;
+}
+
+.color {
+  width: 400px;
+  height: 150px;
+  margin: 3rem;
+  border-radius: 15px;
+  font-size: 1.5rem;
+  color: whitesmoke;
+  letter-spacing: 0.5rem;
+  text-transform: uppercase;
+}
+
+.blue {
+  background-color: blue;
+  display: grid;
+  place-content: center;
+}
+
+.green {
+  background-color: green;
+  display: grid;
+  place-content: center;
+}
+
+.red {
+  background-color: red;
+  display: grid;
+  place-content: center;
+}
+
+.black {
+  background-color: black;
+}
+
+.pink {
+  background-color: pink;
+  display: grid;
+  place-content: center;
+}
+
+.purple {
+  background-color: purple;
+  display: grid;
+  place-content: center;
+}
+
+.skyblue {
+  background-color: skyblue;
+  display: grid;
+  place-content: center;
+}
+
+.orange {
+  background-color: orange;
+  display: grid;
+  place-content: center;
+}
+
+.brown {
+  background-color: brown;
+  display: grid;
+  place-content: center;
+}
+
+.btns {
+  display: flex;
+  flex-wrap: nowrap;
+  width: 60%;
+  justify-content: space-evenly;
+  margin: 1rem auto;
+}
+
+.btn {
+  font-size: 1rem;
+  padding: 0.5rem;
+}
+
+.block {
+  display: block;
+}
+
+.none {
+  display: none;
+}
